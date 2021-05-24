@@ -6,6 +6,7 @@ i wrote this to help my partner help cut out some redundancies from their worklo
 **dependencies:** texlive-core, texlive-latexextra, poppler.
 
 **to-do:**
+
 	* integrate .pdf to .pptx/.odp conversion for (editable) use in google slides
 	* option to redo an individual slide in case of incorrect info
 	* visual previews in zenity file selection?
