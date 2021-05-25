@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# SSlide v1.82
+# SSlide v1.83
 # Dylan Warn
 # May 2021
 
@@ -12,9 +12,7 @@ echo "
 
 # Create working directory
 timestamp=$(date "+%Y-%b-%d_%H:%M")
-if [ ! -d "$timestamp" ]; then
-	mkdir "$timestamp"
-fi
+[[ ! -d "$timestamp" ]] && mkdir "$timestamp"
 
 # User input prompts
 read -p "Create how many slides? " slnum
